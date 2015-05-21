@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D074A0CB1B0D161900B8A80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074A0CA1B0D161900B8A80D /* AppDelegate.swift */; };
+		D074A0CD1B0D161900B8A80D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074A0CC1B0D161900B8A80D /* ViewController.swift */; };
+		D074A0D01B0D161900B8A80D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D074A0CE1B0D161900B8A80D /* Main.storyboard */; };
+		D074A0D21B0D161900B8A80D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D074A0D11B0D161900B8A80D /* Images.xcassets */; };
+		D074A0D51B0D161900B8A80D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D074A0D31B0D161900B8A80D /* LaunchScreen.xib */; };
+		D074A0E11B0D161900B8A80D /* Advanced_SequesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074A0E01B0D161900B8A80D /* Advanced_SequesTests.swift */; };
+		D074A0EB1B0D167100B8A80D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D074A0EA1B0D167100B8A80D /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D074A0DB1B0D161900B8A80D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D074A0BD1B0D161900B8A80D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D074A0C41B0D161900B8A80D;
+			remoteInfo = "Advanced Seques";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D074A0C51B0D161900B8A80D /* Advanced Seques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Seques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D074A0C91B0D161900B8A80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D074A0CA1B0D161900B8A80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D074A0CC1B0D161900B8A80D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D074A0CF1B0D161900B8A80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D074A0D11B0D161900B8A80D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D074A0D41B0D161900B8A80D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D074A0DA1B0D161900B8A80D /* Advanced SequesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced SequesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D074A0DF1B0D161900B8A80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D074A0E01B0D161900B8A80D /* Advanced_SequesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_SequesTests.swift; sourceTree = "<group>"; };
+		D074A0EA1B0D167100B8A80D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D074A0C21B0D161900B8A80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D074A0D71B0D161900B8A80D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D074A0BC1B0D161900B8A80D = {
+			isa = PBXGroup;
+			children = (
+				D074A0C71B0D161900B8A80D /* Advanced Seques */,
+				D074A0DD1B0D161900B8A80D /* Advanced SequesTests */,
+				D074A0C61B0D161900B8A80D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D074A0C61B0D161900B8A80D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D074A0C51B0D161900B8A80D /* Advanced Seques.app */,
+				D074A0DA1B0D161900B8A80D /* Advanced SequesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D074A0C71B0D161900B8A80D /* Advanced Seques */ = {
+			isa = PBXGroup;
+			children = (
+				D074A0CA1B0D161900B8A80D /* AppDelegate.swift */,
+				D074A0CC1B0D161900B8A80D /* ViewController.swift */,
+				D074A0CE1B0D161900B8A80D /* Main.storyboard */,
+				D074A0EA1B0D167100B8A80D /* TableViewController.swift */,
+				D074A0D11B0D161900B8A80D /* Images.xcassets */,
+				D074A0D31B0D161900B8A80D /* LaunchScreen.xib */,
+				D074A0C81B0D161900B8A80D /* Supporting Files */,
+			);
+			path = "Advanced Seques";
+			sourceTree = "<group>";
+		};
+		D074A0C81B0D161900B8A80D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D074A0C91B0D161900B8A80D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D074A0DD1B0D161900B8A80D /* Advanced SequesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D074A0E01B0D161900B8A80D /* Advanced_SequesTests.swift */,
+				D074A0DE1B0D161900B8A80D /* Supporting Files */,
+			);
+			path = "Advanced SequesTests";
+			sourceTree = "<group>";
+		};
+		D074A0DE1B0D161900B8A80D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D074A0DF1B0D161900B8A80D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D074A0C41B0D161900B8A80D /* Advanced Seques */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D074A0E41B0D161900B8A80D /* Build configuration list for PBXNativeTarget "Advanced Seques" */;
+			buildPhases = (
+				D074A0C11B0D161900B8A80D /* Sources */,
+				D074A0C21B0D161900B8A80D /* Frameworks */,
+				D074A0C31B0D161900B8A80D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advanced Seques";
+			productName = "Advanced Seques";
+			productReference = D074A0C51B0D161900B8A80D /* Advanced Seques.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D074A0D91B0D161900B8A80D /* Advanced SequesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D074A0E71B0D161900B8A80D /* Build configuration list for PBXNativeTarget "Advanced SequesTests" */;
+			buildPhases = (
+				D074A0D61B0D161900B8A80D /* Sources */,
+				D074A0D71B0D161900B8A80D /* Frameworks */,
+				D074A0D81B0D161900B8A80D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D074A0DC1B0D161900B8A80D /* PBXTargetDependency */,
+			);
+			name = "Advanced SequesTests";
+			productName = "Advanced SequesTests";
+			productReference = D074A0DA1B0D161900B8A80D /* Advanced SequesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D074A0BD1B0D161900B8A80D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JMVapps;
+				TargetAttributes = {
+					D074A0C41B0D161900B8A80D = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					D074A0D91B0D161900B8A80D = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = D074A0C41B0D161900B8A80D;
+					};
+				};
+			};
+			buildConfigurationList = D074A0C01B0D161900B8A80D /* Build configuration list for PBXProject "Advanced Seques" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D074A0BC1B0D161900B8A80D;
+			productRefGroup = D074A0C61B0D161900B8A80D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D074A0C41B0D161900B8A80D /* Advanced Seques */,
+				D074A0D91B0D161900B8A80D /* Advanced SequesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D074A0C31B0D161900B8A80D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D074A0D01B0D161900B8A80D /* Main.storyboard in Resources */,
+				D074A0D51B0D161900B8A80D /* LaunchScreen.xib in Resources */,
+				D074A0D21B0D161900B8A80D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D074A0D81B0D161900B8A80D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D074A0C11B0D161900B8A80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D074A0CD1B0D161900B8A80D /* ViewController.swift in Sources */,
+				D074A0EB1B0D167100B8A80D /* TableViewController.swift in Sources */,
+				D074A0CB1B0D161900B8A80D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D074A0D61B0D161900B8A80D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D074A0E11B0D161900B8A80D /* Advanced_SequesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D074A0DC1B0D161900B8A80D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D074A0C41B0D161900B8A80D /* Advanced Seques */;
+			targetProxy = D074A0DB1B0D161900B8A80D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D074A0CE1B0D161900B8A80D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D074A0CF1B0D161900B8A80D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D074A0D31B0D161900B8A80D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D074A0D41B0D161900B8A80D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D074A0E21B0D161900B8A80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D074A0E31B0D161900B8A80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D074A0E51B0D161900B8A80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advanced Seques/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D074A0E61B0D161900B8A80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advanced Seques/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D074A0E81B0D161900B8A80D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Advanced SequesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Seques.app/Advanced Seques";
+			};
+			name = Debug;
+		};
+		D074A0E91B0D161900B8A80D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Advanced SequesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced Seques.app/Advanced Seques";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D074A0C01B0D161900B8A80D /* Build configuration list for PBXProject "Advanced Seques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D074A0E21B0D161900B8A80D /* Debug */,
+				D074A0E31B0D161900B8A80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D074A0E41B0D161900B8A80D /* Build configuration list for PBXNativeTarget "Advanced Seques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D074A0E51B0D161900B8A80D /* Debug */,
+				D074A0E61B0D161900B8A80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D074A0E71B0D161900B8A80D /* Build configuration list for PBXNativeTarget "Advanced SequesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D074A0E81B0D161900B8A80D /* Debug */,
+				D074A0E91B0D161900B8A80D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D074A0BD1B0D161900B8A80D /* Project object */;
+}
